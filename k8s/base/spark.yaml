@@ -1,0 +1,49 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: spark-connect
+  namespace: airflow-elastic
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: spark-connect
+  template:
+    metadata:
+      labels:
+        app: spark-connect
+    spec:
+      containers:
+      - name: spark-connect
+        image: apache/spark:4.0.0-preview1-python3
+        command:
+        - /opt/spark/sbin/start-connect-server.sh
+        - --packages
+        - org.apache.spark:spark-connect_2.12:4.0.0-preview1
+        ports:
+        - containerPort: 15002
+        - containerPort: 4040
+        resources:
+          requests:
+            memory: "2Gi"
+            cpu: "1000m"
+          limits:
+            memory: "8Gi"
+            cpu: "4000m"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: spark-connect-service
+  namespace: airflow-elastic
+spec:
+  selector:
+    app: spark-connect
+  ports:
+  - name: connect
+    port: 15002
+    targetPort: 15002
+  - name: ui
+    port: 4040
+    targetPort: 4040
+  type: ClusterIP

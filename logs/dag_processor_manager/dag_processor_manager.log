@@ -1206,3 +1206,625 @@ File Path                                          PID    Runtime      # DAGs   
 /opt/airflow/dags/pyspark_demo.py                                           1           0  0.08s           2026-02-22T14:14:45                      12
 /opt/airflow/dags/kafka_integration_demo.py                                 1           0  0.08s           2026-02-22T14:14:45                      10
 ================================================================================
+[2026-02-22T14:15:35.510+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/elasticsearch_indexer.py                                  1           0  0.16s           2026-02-22T14:15:17                      10
+/opt/airflow/dags/spark_elasticsearch_pipeline.py                           1           0  0.10s           2026-02-22T14:15:17                      10
+/opt/airflow/dags/data_pipeline_example.py                                  1           0  0.09s           2026-02-22T14:15:17                      12
+/opt/airflow/dags/pyspark_demo.py                                           1           0  0.09s           2026-02-22T14:15:17                      12
+/opt/airflow/dags/kafka_integration_demo.py                                 1           0  0.08s           2026-02-22T14:15:17                      10
+================================================================================
+[2026-02-22T14:16:06.695+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/elasticsearch_indexer.py                                  1           0  0.15s           2026-02-22T14:15:47                      10
+/opt/airflow/dags/spark_elasticsearch_pipeline.py                           1           0  0.09s           2026-02-22T14:15:47                      10
+/opt/airflow/dags/data_pipeline_example.py                                  1           0  0.09s           2026-02-22T14:15:47                      12
+/opt/airflow/dags/kafka_integration_demo.py                                 1           0  0.08s           2026-02-22T14:15:47                      10
+/opt/airflow/dags/pyspark_demo.py                                           1           0  0.08s           2026-02-22T14:15:47                      12
+================================================================================
+[2026-02-22T14:16:37.644+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/elasticsearch_indexer.py                                  1           0  0.13s           2026-02-22T14:16:18                      10
+/opt/airflow/dags/data_pipeline_example.py                                  1           0  0.08s           2026-02-22T14:16:18                      12
+/opt/airflow/dags/spark_elasticsearch_pipeline.py                           1           0  0.08s           2026-02-22T14:16:18                      10
+/opt/airflow/dags/pyspark_demo.py                                           1           0  0.08s           2026-02-22T14:16:18                      12
+/opt/airflow/dags/kafka_integration_demo.py                                 1           0  0.07s           2026-02-22T14:16:18                      10
+================================================================================
+[2026-02-22T14:17:10.784+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/elasticsearch_indexer.py                                  1           0  0.12s           2026-02-22T14:16:51                      10
+/opt/airflow/dags/spark_elasticsearch_pipeline.py                           1           0  0.08s           2026-02-22T14:16:51                      10
+/opt/airflow/dags/data_pipeline_example.py                                  1           0  0.08s           2026-02-22T14:16:51                      12
+/opt/airflow/dags/pyspark_demo.py                                           1           0  0.07s           2026-02-22T14:16:51                      12
+/opt/airflow/dags/kafka_integration_demo.py                                 1           0  0.07s           2026-02-22T14:16:51                      10
+================================================================================
+[2026-02-22T14:17:13.800+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-02-22T14:17:13.834+0000] {manager.py:824} INFO - There are 5 files in /opt/airflow/dags
+[2026-02-22T14:17:43.965+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/elasticsearch_indexer.py                                  1           0  0.12s           2026-02-22T14:17:23                      10
+/opt/airflow/dags/spark_elasticsearch_pipeline.py                           1           0  0.08s           2026-02-22T14:17:23                      10
+/opt/airflow/dags/data_pipeline_example.py                                  1           0  0.07s           2026-02-22T14:17:23                      12
+/opt/airflow/dags/pyspark_demo.py                                           1           0  0.07s           2026-02-22T14:17:23                      12
+/opt/airflow/dags/kafka_integration_demo.py                                 1           0  0.07s           2026-02-22T14:17:23                      10
+================================================================================
+[2026-02-22T14:18:17.141+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/elasticsearch_indexer.py                                  1           0  0.14s           2026-02-22T14:17:56                      10
+/opt/airflow/dags/spark_elasticsearch_pipeline.py                           1           0  0.09s           2026-02-22T14:17:56                      10
+/opt/airflow/dags/data_pipeline_example.py                                  1           0  0.08s           2026-02-22T14:17:57                      12
+/opt/airflow/dags/pyspark_demo.py                                           1           0  0.08s           2026-02-22T14:17:56                      12
+/opt/airflow/dags/kafka_integration_demo.py                                 1           0  0.08s           2026-02-22T14:17:56                      10
+================================================================================
+[2026-02-22T14:18:48.088+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/elasticsearch_indexer.py                                  1           0  0.13s           2026-02-22T14:18:27                      10
+/opt/airflow/dags/spark_elasticsearch_pipeline.py                           1           0  0.08s           2026-02-22T14:18:27                      10
+/opt/airflow/dags/data_pipeline_example.py                                  1           0  0.08s           2026-02-22T14:18:27                      12
+/opt/airflow/dags/pyspark_demo.py                                           1           0  0.08s           2026-02-22T14:18:27                      12
+/opt/airflow/dags/kafka_integration_demo.py                                 1           0  0.08s           2026-02-22T14:18:27                      10
+================================================================================
+[2026-02-22T14:19:19.596+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/elasticsearch_indexer.py                                  1           0  0.14s           2026-02-22T14:18:58                      10
+/opt/airflow/dags/spark_elasticsearch_pipeline.py                           1           0  0.09s           2026-02-22T14:18:58                      10
+/opt/airflow/dags/data_pipeline_example.py                                  1           0  0.09s           2026-02-22T14:18:58                      12
+/opt/airflow/dags/pyspark_demo.py                                           1           0  0.08s           2026-02-22T14:18:58                      12
+/opt/airflow/dags/kafka_integration_demo.py                                 1           0  0.08s           2026-02-22T14:18:58                      10
+================================================================================
+[2026-02-22T14:19:50.914+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/elasticsearch_indexer.py                                  1           0  0.13s           2026-02-22T14:19:28                      10
+/opt/airflow/dags/spark_elasticsearch_pipeline.py                           1           0  0.09s           2026-02-22T14:19:28                      10
+/opt/airflow/dags/pyspark_demo.py                                           1           0  0.08s           2026-02-22T14:19:28                      12
+/opt/airflow/dags/data_pipeline_example.py                                  1           0  0.08s           2026-02-22T14:19:28                      12
+/opt/airflow/dags/kafka_integration_demo.py                                 1           0  0.07s           2026-02-22T14:19:28                      10
+================================================================================
+[2026-02-22T14:20:22.079+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/elasticsearch_indexer.py                                  1           0  0.15s           2026-02-22T14:19:59                      10
+/opt/airflow/dags/spark_elasticsearch_pipeline.py                           1           0  0.10s           2026-02-22T14:19:59                      10
+/opt/airflow/dags/data_pipeline_example.py                                  1           0  0.09s           2026-02-22T14:19:59                      12
+/opt/airflow/dags/kafka_integration_demo.py                                 1           0  0.09s           2026-02-22T14:19:59                      10
+/opt/airflow/dags/pyspark_demo.py                                           1           0  0.08s           2026-02-22T14:19:59                      12
+================================================================================
+[2026-02-22T14:20:53.026+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/elasticsearch_indexer.py                                  1           0  0.13s           2026-02-22T14:20:30                      10
+/opt/airflow/dags/data_pipeline_example.py                                  1           0  0.08s           2026-02-22T14:20:30                      12
+/opt/airflow/dags/spark_elasticsearch_pipeline.py                           1           0  0.08s           2026-02-22T14:20:30                      10
+/opt/airflow/dags/pyspark_demo.py                                           1           0  0.08s           2026-02-22T14:20:30                      12
+/opt/airflow/dags/kafka_integration_demo.py                                 1           0  0.07s           2026-02-22T14:20:30                      10
+================================================================================
+[2026-02-22T14:21:24.549+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/elasticsearch_indexer.py                                  1           0  0.15s           2026-02-22T14:21:01                      10
+/opt/airflow/dags/data_pipeline_example.py                                  1           0  0.10s           2026-02-22T14:21:01                      12
+/opt/airflow/dags/spark_elasticsearch_pipeline.py                           1           0  0.09s           2026-02-22T14:21:01                      10
+/opt/airflow/dags/pyspark_demo.py                                           1           0  0.09s           2026-02-22T14:21:01                      12
+/opt/airflow/dags/kafka_integration_demo.py                                 1           0  0.08s           2026-02-22T14:21:01                      10
+================================================================================
+[2026-02-22T14:21:55.849+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/elasticsearch_indexer.py                                  1           0  0.13s           2026-02-22T14:21:31                      10
+/opt/airflow/dags/spark_elasticsearch_pipeline.py                           1           0  0.09s           2026-02-22T14:21:31                      10
+/opt/airflow/dags/data_pipeline_example.py                                  1           0  0.07s           2026-02-22T14:21:31                      12
+/opt/airflow/dags/pyspark_demo.py                                           1           0  0.07s           2026-02-22T14:21:31                      12
+/opt/airflow/dags/kafka_integration_demo.py                                 1           0  0.07s           2026-02-22T14:21:31                      10
+================================================================================
+[2026-02-22T14:22:13.930+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-02-22T14:22:13.970+0000] {manager.py:824} INFO - There are 5 files in /opt/airflow/dags
+[2026-02-22T14:22:29.087+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/elasticsearch_indexer.py                                  1           0  0.14s           2026-02-22T14:22:04                      10
+/opt/airflow/dags/data_pipeline_example.py                                  1           0  0.09s           2026-02-22T14:22:04                      12
+/opt/airflow/dags/pyspark_demo.py                                           1           0  0.09s           2026-02-22T14:22:04                      12
+/opt/airflow/dags/spark_elasticsearch_pipeline.py                           1           0  0.09s           2026-02-22T14:22:04                      10
+/opt/airflow/dags/kafka_integration_demo.py                                 1           0  0.08s           2026-02-22T14:22:04                      10
+================================================================================
+[2026-02-22T14:23:00.008+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/elasticsearch_indexer.py                                  1           0  0.13s           2026-02-22T14:22:35                      10
+/opt/airflow/dags/spark_elasticsearch_pipeline.py                           1           0  0.09s           2026-02-22T14:22:35                      10
+/opt/airflow/dags/data_pipeline_example.py                                  1           0  0.08s           2026-02-22T14:22:35                      12
+/opt/airflow/dags/kafka_integration_demo.py                                 1           0  0.08s           2026-02-22T14:22:35                      10
+/opt/airflow/dags/pyspark_demo.py                                           1           0  0.08s           2026-02-22T14:22:35                      12
+================================================================================
+[2026-02-22T14:23:31.485+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/elasticsearch_indexer.py                                  1           0  0.14s           2026-02-22T14:23:06                      10
+/opt/airflow/dags/spark_elasticsearch_pipeline.py                           1           0  0.09s           2026-02-22T14:23:06                      10
+/opt/airflow/dags/data_pipeline_example.py                                  1           0  0.09s           2026-02-22T14:23:06                      12
+/opt/airflow/dags/pyspark_demo.py                                           1           0  0.08s           2026-02-22T14:23:06                      12
+/opt/airflow/dags/kafka_integration_demo.py                                 1           0  0.08s           2026-02-22T14:23:06                      10
+================================================================================
+[2026-02-22T14:24:02.793+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/elasticsearch_indexer.py                                  1           0  0.15s           2026-02-22T14:23:37                      10
+/opt/airflow/dags/spark_elasticsearch_pipeline.py                           1           0  0.09s           2026-02-22T14:23:37                      10
+/opt/airflow/dags/data_pipeline_example.py                                  1           0  0.08s           2026-02-22T14:23:37                      12
+/opt/airflow/dags/pyspark_demo.py                                           1           0  0.08s           2026-02-22T14:23:37                      12
+/opt/airflow/dags/kafka_integration_demo.py                                 1           0  0.08s           2026-02-22T14:23:37                      10
+================================================================================
+[2026-02-22T14:24:33.942+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/elasticsearch_indexer.py                                  1           0  0.14s           2026-02-22T14:24:07                      10
+/opt/airflow/dags/data_pipeline_example.py                                  1           0  0.08s           2026-02-22T14:24:07                      12
+/opt/airflow/dags/spark_elasticsearch_pipeline.py                           1           0  0.08s           2026-02-22T14:24:07                      10
+/opt/airflow/dags/pyspark_demo.py                                           1           0  0.08s           2026-02-22T14:24:07                      12
+/opt/airflow/dags/kafka_integration_demo.py                                 1           0  0.08s           2026-02-22T14:24:07                      10
+================================================================================
+[2026-02-22T14:25:04.884+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/elasticsearch_indexer.py                                  1           0  0.14s           2026-02-22T14:24:38                      10
+/opt/airflow/dags/spark_elasticsearch_pipeline.py                           1           0  0.09s           2026-02-22T14:24:38                      10
+/opt/airflow/dags/pyspark_demo.py                                           1           0  0.08s           2026-02-22T14:24:38                      12
+/opt/airflow/dags/data_pipeline_example.py                                  1           0  0.08s           2026-02-22T14:24:38                      12
+/opt/airflow/dags/kafka_integration_demo.py                                 1           0  0.08s           2026-02-22T14:24:38                      10
+================================================================================
+[2026-02-22T14:25:36.357+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/elasticsearch_indexer.py                                  1           0  0.13s           2026-02-22T14:25:09                      10
+/opt/airflow/dags/data_pipeline_example.py                                  1           0  0.09s           2026-02-22T14:25:09                      12
+/opt/airflow/dags/pyspark_demo.py                                           1           0  0.09s           2026-02-22T14:25:09                      12
+/opt/airflow/dags/spark_elasticsearch_pipeline.py                           1           0  0.08s           2026-02-22T14:25:09                      10
+/opt/airflow/dags/kafka_integration_demo.py                                 1           0  0.08s           2026-02-22T14:25:09                      10
+================================================================================
+[2026-02-22T14:26:07.614+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/elasticsearch_indexer.py                                  1           0  0.12s           2026-02-22T14:25:40                      10
+/opt/airflow/dags/spark_elasticsearch_pipeline.py                           1           0  0.08s           2026-02-22T14:25:40                      10
+/opt/airflow/dags/data_pipeline_example.py                                  1           0  0.07s           2026-02-22T14:25:40                      12
+/opt/airflow/dags/pyspark_demo.py                                           1           0  0.07s           2026-02-22T14:25:40                      12
+/opt/airflow/dags/kafka_integration_demo.py                                 1           0  0.07s           2026-02-22T14:25:40                      10
+================================================================================
+[2026-02-22T14:26:40.772+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/elasticsearch_indexer.py                                  1           0  0.13s           2026-02-22T14:26:12                      10
+/opt/airflow/dags/spark_elasticsearch_pipeline.py                           1           0  0.09s           2026-02-22T14:26:12                      10
+/opt/airflow/dags/data_pipeline_example.py                                  1           0  0.07s           2026-02-22T14:26:12                      12
+/opt/airflow/dags/kafka_integration_demo.py                                 1           0  0.07s           2026-02-22T14:26:12                      10
+/opt/airflow/dags/pyspark_demo.py                                           1           0  0.07s           2026-02-22T14:26:12                      12
+================================================================================
+[2026-02-22T14:27:13.928+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/elasticsearch_indexer.py                                  1           0  0.12s           2026-02-22T14:26:45                      10
+/opt/airflow/dags/data_pipeline_example.py                                  1           0  0.08s           2026-02-22T14:26:45                      12
+/opt/airflow/dags/spark_elasticsearch_pipeline.py                           1           0  0.08s           2026-02-22T14:26:45                      10
+/opt/airflow/dags/pyspark_demo.py                                           1           0  0.07s           2026-02-22T14:26:45                      12
+/opt/airflow/dags/kafka_integration_demo.py                                 1           0  0.07s           2026-02-22T14:26:45                      10
+================================================================================
+[2026-02-22T14:27:18.658+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-02-22T14:27:18.694+0000] {manager.py:824} INFO - There are 5 files in /opt/airflow/dags
+[2026-02-22T14:27:47.159+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/elasticsearch_indexer.py                                  1           0  0.14s           2026-02-22T14:27:18                      10
+/opt/airflow/dags/spark_elasticsearch_pipeline.py                           1           0  0.09s           2026-02-22T14:27:18                      10
+/opt/airflow/dags/pyspark_demo.py                                           1           0  0.08s           2026-02-22T14:27:18                      12
+/opt/airflow/dags/kafka_integration_demo.py                                 1           0  0.08s           2026-02-22T14:27:18                      10
+/opt/airflow/dags/data_pipeline_example.py                                  1           0  0.08s           2026-02-22T14:27:18                      12
+================================================================================
+[2026-02-22T14:26:34.513+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/elasticsearch_indexer.py                                  1           0  0.14s           2026-02-22T14:27:49                      10
+/opt/airflow/dags/spark_elasticsearch_pipeline.py                           1           0  0.09s           2026-02-22T14:27:49                      10
+/opt/airflow/dags/data_pipeline_example.py                                  1           0  0.08s           2026-02-22T14:27:49                      12
+/opt/airflow/dags/kafka_integration_demo.py                                 1           0  0.08s           2026-02-22T14:27:49                      10
+/opt/airflow/dags/pyspark_demo.py                                           1           0  0.08s           2026-02-22T14:27:49                      12
+================================================================================
+[2026-02-22T14:28:50.755+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/elasticsearch_indexer.py          1510  0.01s             1           0  0.15s           2026-02-22T14:28:20                      10
+/opt/airflow/dags/spark_elasticsearch_pipeline.py   1509  0.02s             1           0  0.09s           2026-02-22T14:28:20                      10
+/opt/airflow/dags/kafka_integration_demo.py                                 1           0  0.09s           2026-02-22T14:28:20                      10
+/opt/airflow/dags/data_pipeline_example.py                                  1           0  0.08s           2026-02-22T14:28:20                      12
+/opt/airflow/dags/pyspark_demo.py                                           1           0  0.08s           2026-02-22T14:28:20                      12
+================================================================================
+[2026-02-22T14:29:22.231+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/elasticsearch_indexer.py          1521  0.01s             1           0  0.16s           2026-02-22T14:28:50                      10
+/opt/airflow/dags/spark_elasticsearch_pipeline.py   1520  0.02s             1           0  0.10s           2026-02-22T14:28:50                      10
+/opt/airflow/dags/kafka_integration_demo.py                                 1           0  0.10s           2026-02-22T14:28:50                      10
+/opt/airflow/dags/data_pipeline_example.py                                  1           0  0.09s           2026-02-22T14:28:51                      12
+/opt/airflow/dags/pyspark_demo.py                                           1           0  0.09s           2026-02-22T14:28:51                      12
+================================================================================
+[2026-02-22T14:29:53.755+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/elasticsearch_indexer.py                                  1           0  0.15s           2026-02-22T14:29:52                      10
+/opt/airflow/dags/spark_elasticsearch_pipeline.py                           1           0  0.10s           2026-02-22T14:29:52                      10
+/opt/airflow/dags/kafka_integration_demo.py                                 1           0  0.08s           2026-02-22T14:29:52                      10
+/opt/airflow/dags/data_pipeline_example.py                                  1           0  0.08s           2026-02-22T14:29:52                      12
+/opt/airflow/dags/pyspark_demo.py                                           1           0  0.08s           2026-02-22T14:29:52                      12
+================================================================================
+[2026-02-22T14:30:24.841+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/elasticsearch_indexer.py                                  1           0  0.13s           2026-02-22T14:30:23                      10
+/opt/airflow/dags/spark_elasticsearch_pipeline.py                           1           0  0.08s           2026-02-22T14:30:23                      10
+/opt/airflow/dags/data_pipeline_example.py                                  1           0  0.08s           2026-02-22T14:30:23                      12
+/opt/airflow/dags/pyspark_demo.py                                           1           0  0.08s           2026-02-22T14:30:23                      12
+/opt/airflow/dags/kafka_integration_demo.py                                 1           0  0.07s           2026-02-22T14:30:23                      10
+================================================================================
+[2026-02-22T14:30:56.450+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/elasticsearch_indexer.py                                  1           0  0.12s           2026-02-22T14:30:54                      10
+/opt/airflow/dags/spark_elasticsearch_pipeline.py                           1           0  0.08s           2026-02-22T14:30:54                      10
+/opt/airflow/dags/data_pipeline_example.py                                  1           0  0.08s           2026-02-22T14:30:54                      12
+/opt/airflow/dags/pyspark_demo.py                                           1           0  0.08s           2026-02-22T14:30:54                      12
+/opt/airflow/dags/kafka_integration_demo.py                                 1           0  0.07s           2026-02-22T14:30:54                      10
+================================================================================
+[2026-02-22T14:31:29.596+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/elasticsearch_indexer.py                                  1           0  0.12s           2026-02-22T14:31:27                      10
+/opt/airflow/dags/spark_elasticsearch_pipeline.py                           1           0  0.08s           2026-02-22T14:31:27                      10
+/opt/airflow/dags/kafka_integration_demo.py                                 1           0  0.08s           2026-02-22T14:31:27                      10
+/opt/airflow/dags/data_pipeline_example.py                                  1           0  0.08s           2026-02-22T14:31:27                      12
+/opt/airflow/dags/pyspark_demo.py                                           1           0  0.07s           2026-02-22T14:31:27                      12
+================================================================================
+[2026-02-22T14:32:02.754+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/elasticsearch_indexer.py                                  1           0  0.14s           2026-02-22T14:31:59                      10
+/opt/airflow/dags/spark_elasticsearch_pipeline.py                           1           0  0.09s           2026-02-22T14:31:59                      10
+/opt/airflow/dags/data_pipeline_example.py                                  1           0  0.09s           2026-02-22T14:31:59                      12
+/opt/airflow/dags/pyspark_demo.py                                           1           0  0.08s           2026-02-22T14:31:59                      12
+/opt/airflow/dags/kafka_integration_demo.py                                 1           0  0.08s           2026-02-22T14:31:59                      10
+================================================================================
+[2026-02-22T14:32:18.865+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-02-22T14:32:18.901+0000] {manager.py:824} INFO - There are 5 files in /opt/airflow/dags
+[2026-02-22T14:32:33.869+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/elasticsearch_indexer.py                                  1           0  0.13s           2026-02-22T14:32:30                      10
+/opt/airflow/dags/data_pipeline_example.py                                  1           0  0.09s           2026-02-22T14:32:30                      12
+/opt/airflow/dags/pyspark_demo.py                                           1           0  0.08s           2026-02-22T14:32:30                      12
+/opt/airflow/dags/spark_elasticsearch_pipeline.py                           1           0  0.08s           2026-02-22T14:32:30                      10
+/opt/airflow/dags/kafka_integration_demo.py                                 1           0  0.08s           2026-02-22T14:32:30                      10
+================================================================================
+[2026-02-22T14:33:05.507+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/elasticsearch_indexer.py                                  1           0  0.14s           2026-02-22T14:33:01                      10
+/opt/airflow/dags/spark_elasticsearch_pipeline.py                           1           0  0.09s           2026-02-22T14:33:01                      10
+/opt/airflow/dags/data_pipeline_example.py                                  1           0  0.09s           2026-02-22T14:33:01                      12
+/opt/airflow/dags/pyspark_demo.py                                           1           0  0.09s           2026-02-22T14:33:01                      12
+/opt/airflow/dags/kafka_integration_demo.py                                 1           0  0.08s           2026-02-22T14:33:01                      10
+================================================================================
+[2026-02-22T14:33:36.976+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/elasticsearch_indexer.py                                  1           0  0.15s           2026-02-22T14:33:32                      10
+/opt/airflow/dags/data_pipeline_example.py                                  1           0  0.10s           2026-02-22T14:33:32                      12
+/opt/airflow/dags/spark_elasticsearch_pipeline.py                           1           0  0.10s           2026-02-22T14:33:32                      10
+/opt/airflow/dags/pyspark_demo.py                                           1           0  0.09s           2026-02-22T14:33:32                      12
+/opt/airflow/dags/kafka_integration_demo.py                                 1           0  0.09s           2026-02-22T14:33:32                      10
+================================================================================
+[2026-02-22T14:34:08.242+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/elasticsearch_indexer.py                                  1           0  0.15s           2026-02-22T14:34:04                      10
+/opt/airflow/dags/data_pipeline_example.py                                  1           0  0.09s           2026-02-22T14:34:04                      12
+/opt/airflow/dags/kafka_integration_demo.py                                 1           0  0.09s           2026-02-22T14:34:04                      10
+/opt/airflow/dags/spark_elasticsearch_pipeline.py                           1           0  0.09s           2026-02-22T14:34:04                      10
+/opt/airflow/dags/pyspark_demo.py                                           1           0  0.08s           2026-02-22T14:34:04                      12
+================================================================================
+[2026-02-22T14:34:39.322+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/elasticsearch_indexer.py                                  1           0  0.14s           2026-02-22T14:34:35                      10
+/opt/airflow/dags/spark_elasticsearch_pipeline.py                           1           0  0.09s           2026-02-22T14:34:35                      10
+/opt/airflow/dags/pyspark_demo.py                                           1           0  0.09s           2026-02-22T14:34:35                      12
+/opt/airflow/dags/data_pipeline_example.py                                  1           0  0.08s           2026-02-22T14:34:35                      12
+/opt/airflow/dags/kafka_integration_demo.py                                 1           0  0.07s           2026-02-22T14:34:35                      10
+================================================================================
+[2026-02-22T14:35:10.931+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/elasticsearch_indexer.py                                  1           0  0.13s           2026-02-22T14:35:05                      10
+/opt/airflow/dags/data_pipeline_example.py                                  1           0  0.09s           2026-02-22T14:35:05                      12
+/opt/airflow/dags/pyspark_demo.py                                           1           0  0.08s           2026-02-22T14:35:05                      12
+/opt/airflow/dags/spark_elasticsearch_pipeline.py                           1           0  0.08s           2026-02-22T14:35:05                      10
+/opt/airflow/dags/kafka_integration_demo.py                                 1           0  0.08s           2026-02-22T14:35:05                      10
+================================================================================
+[2026-02-22T14:35:42.351+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/elasticsearch_indexer.py                                  1           0  0.13s           2026-02-22T14:35:36                      10
+/opt/airflow/dags/spark_elasticsearch_pipeline.py                           1           0  0.09s           2026-02-22T14:35:36                      10
+/opt/airflow/dags/data_pipeline_example.py                                  1           0  0.08s           2026-02-22T14:35:36                      12
+/opt/airflow/dags/kafka_integration_demo.py                                 1           0  0.07s           2026-02-22T14:35:36                      10
+/opt/airflow/dags/pyspark_demo.py                                           1           0  0.07s           2026-02-22T14:35:36                      12
+================================================================================
+[2026-02-22T14:36:15.511+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/elasticsearch_indexer.py                                  1           0  0.13s           2026-02-22T14:36:09                      10
+/opt/airflow/dags/spark_elasticsearch_pipeline.py                           1           0  0.09s           2026-02-22T14:36:09                      10
+/opt/airflow/dags/data_pipeline_example.py                                  1           0  0.08s           2026-02-22T14:36:09                      12
+/opt/airflow/dags/pyspark_demo.py                                           1           0  0.08s           2026-02-22T14:36:09                      12
+/opt/airflow/dags/kafka_integration_demo.py                                 1           0  0.07s           2026-02-22T14:36:09                      10
+================================================================================
+[2026-02-22T14:36:48.706+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/elasticsearch_indexer.py                                  1           0  0.16s           2026-02-22T14:36:41                      10
+/opt/airflow/dags/spark_elasticsearch_pipeline.py                           1           0  0.10s           2026-02-22T14:36:41                      10
+/opt/airflow/dags/data_pipeline_example.py                                  1           0  0.09s           2026-02-22T14:36:41                      12
+/opt/airflow/dags/pyspark_demo.py                                           1           0  0.09s           2026-02-22T14:36:41                      12
+/opt/airflow/dags/kafka_integration_demo.py                                 1           0  0.08s           2026-02-22T14:36:41                      10
+================================================================================
+[2026-02-22T14:37:19.283+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-02-22T14:37:19.320+0000] {manager.py:824} INFO - There are 5 files in /opt/airflow/dags
+[2026-02-22T14:37:20.338+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/elasticsearch_indexer.py                                  1           0  0.13s           2026-02-22T14:37:13                      10
+/opt/airflow/dags/spark_elasticsearch_pipeline.py                           1           0  0.09s           2026-02-22T14:37:13                      10
+/opt/airflow/dags/data_pipeline_example.py                                  1           0  0.08s           2026-02-22T14:37:13                      12
+/opt/airflow/dags/pyspark_demo.py                                           1           0  0.08s           2026-02-22T14:37:13                      12
+/opt/airflow/dags/kafka_integration_demo.py                                 1           0  0.08s           2026-02-22T14:37:13                      10
+================================================================================
+[2026-02-22T14:37:51.742+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/elasticsearch_indexer.py                                  1           0  0.14s           2026-02-22T14:37:43                      10
+/opt/airflow/dags/data_pipeline_example.py                                  1           0  0.09s           2026-02-22T14:37:43                      12
+/opt/airflow/dags/spark_elasticsearch_pipeline.py                           1           0  0.09s           2026-02-22T14:37:43                      10
+/opt/airflow/dags/pyspark_demo.py                                           1           0  0.08s           2026-02-22T14:37:43                      12
+/opt/airflow/dags/kafka_integration_demo.py                                 1           0  0.08s           2026-02-22T14:37:43                      10
+================================================================================
+[2026-02-22T14:38:22.979+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/elasticsearch_indexer.py                                  1           0  0.14s           2026-02-22T14:38:14                      10
+/opt/airflow/dags/spark_elasticsearch_pipeline.py                           1           0  0.09s           2026-02-22T14:38:14                      10
+/opt/airflow/dags/pyspark_demo.py                                           1           0  0.08s           2026-02-22T14:38:14                      12
+/opt/airflow/dags/data_pipeline_example.py                                  1           0  0.08s           2026-02-22T14:38:14                      12
+/opt/airflow/dags/kafka_integration_demo.py                                 1           0  0.08s           2026-02-22T14:38:14                      10
+================================================================================
+[2026-02-22T14:38:54.165+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/elasticsearch_indexer.py                                  1           0  0.61s           2026-02-22T14:38:46                      10
+/opt/airflow/dags/pyspark_demo.py                                           1           0  0.09s           2026-02-22T14:38:46                      12
+/opt/airflow/dags/spark_elasticsearch_pipeline.py                           1           0  0.09s           2026-02-22T14:38:45                      10
+/opt/airflow/dags/data_pipeline_example.py                                  1           0  0.09s           2026-02-22T14:38:46                      12
+/opt/airflow/dags/kafka_integration_demo.py                                 1           0  0.08s           2026-02-22T14:38:45                      10
+================================================================================
+[2026-02-22T14:39:25.765+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/elasticsearch_indexer.py                                  1           0  0.15s           2026-02-22T14:39:16                      10
+/opt/airflow/dags/spark_elasticsearch_pipeline.py                           1           0  0.09s           2026-02-22T14:39:16                      10
+/opt/airflow/dags/data_pipeline_example.py                                  1           0  0.09s           2026-02-22T14:39:16                      12
+/opt/airflow/dags/pyspark_demo.py                                           1           0  0.08s           2026-02-22T14:39:16                      12
+/opt/airflow/dags/kafka_integration_demo.py                                 1           0  0.08s           2026-02-22T14:39:16                      10
+================================================================================
+[2026-02-22T14:39:57.178+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/elasticsearch_indexer.py                                  1           0  0.14s           2026-02-22T14:39:47                      10
+/opt/airflow/dags/spark_elasticsearch_pipeline.py                           1           0  0.09s           2026-02-22T14:39:46                      10
+/opt/airflow/dags/data_pipeline_example.py                                  1           0  0.08s           2026-02-22T14:39:47                      12
+/opt/airflow/dags/kafka_integration_demo.py                                 1           0  0.08s           2026-02-22T14:39:47                      10
+/opt/airflow/dags/pyspark_demo.py                                           1           0  0.08s           2026-02-22T14:39:47                      12
+================================================================================
+[2026-02-22T14:40:28.407+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/elasticsearch_indexer.py                                  1           0  0.24s           2026-02-22T14:40:18                      10
+/opt/airflow/dags/spark_elasticsearch_pipeline.py                           1           0  0.08s           2026-02-22T14:40:18                      10
+/opt/airflow/dags/data_pipeline_example.py                                  1           0  0.08s           2026-02-22T14:40:18                      12
+/opt/airflow/dags/kafka_integration_demo.py                                 1           0  0.08s           2026-02-22T14:40:18                      10
+/opt/airflow/dags/pyspark_demo.py                                           1           0  0.08s           2026-02-22T14:40:18                      12
+================================================================================
+[2026-02-22T14:41:01.553+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/elasticsearch_indexer.py                                  1           0  0.12s           2026-02-22T14:40:50                      10
+/opt/airflow/dags/spark_elasticsearch_pipeline.py                           1           0  0.08s           2026-02-22T14:40:50                      10
+/opt/airflow/dags/kafka_integration_demo.py                                 1           0  0.07s           2026-02-22T14:40:50                      10
+/opt/airflow/dags/data_pipeline_example.py                                  1           0  0.07s           2026-02-22T14:40:50                      12
+/opt/airflow/dags/pyspark_demo.py                                           1           0  0.07s           2026-02-22T14:40:50                      12
+================================================================================
+[2026-02-22T14:41:34.862+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/elasticsearch_indexer.py                                  1           0  0.35s           2026-02-22T14:41:23                      10
+/opt/airflow/dags/pyspark_demo.py                                           1           0  0.16s           2026-02-22T14:41:23                      12
+/opt/airflow/dags/kafka_integration_demo.py                                 1           0  0.10s           2026-02-22T14:41:23                      10
+/opt/airflow/dags/spark_elasticsearch_pipeline.py                           1           0  0.09s           2026-02-22T14:41:23                      10
+/opt/airflow/dags/data_pipeline_example.py                                  1           0  0.08s           2026-02-22T14:41:23                      12
+================================================================================
+[2026-02-22T14:42:06.319+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/elasticsearch_indexer.py                                  1           0  0.27s           2026-02-22T14:41:54                      10
+/opt/airflow/dags/spark_elasticsearch_pipeline.py                           1           0  0.10s           2026-02-22T14:41:54                      10
+/opt/airflow/dags/pyspark_demo.py                                           1           0  0.09s           2026-02-22T14:41:54                      12
+/opt/airflow/dags/kafka_integration_demo.py                                 1           0  0.09s           2026-02-22T14:41:54                      10
+/opt/airflow/dags/data_pipeline_example.py                                  1           0  0.09s           2026-02-22T14:41:54                      12
+================================================================================

@@ -1084,3 +1084,122 @@
 [2026-02-22T14:41:54.285+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:41:54.285+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-02-22T14:41:54.300+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:41:54.300+0000] {dag.py:4180} INFO - Setting next_dagrun for data_pipeline_example to 2026-02-22 13:00:00+00:00, run_after=2026-02-22 14:00:00+00:00
 [2026-02-22T14:41:54.312+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_pipeline_example.py took 0.067 seconds
+[2026-02-22T14:42:25.534+0000] {processor.py:186} INFO - Started process (PID=1800) to work on /opt/airflow/dags/data_pipeline_example.py
+[2026-02-22T14:42:25.535+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_pipeline_example.py for tasks to queue
+[2026-02-22T14:42:25.537+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:42:25.537+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_pipeline_example.py
+[2026-02-22T14:42:25.551+0000] {processor.py:925} INFO - DAG(s) 'data_pipeline_example' retrieved from /opt/airflow/dags/data_pipeline_example.py
+[2026-02-22T14:42:25.571+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:42:25.570+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:42:25.587+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:42:25.587+0000] {dag.py:4180} INFO - Setting next_dagrun for data_pipeline_example to 2026-02-22 13:00:00+00:00, run_after=2026-02-22 14:00:00+00:00
+[2026-02-22T14:42:25.599+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_pipeline_example.py took 0.070 seconds
+[2026-02-22T14:42:55.655+0000] {processor.py:186} INFO - Started process (PID=1811) to work on /opt/airflow/dags/data_pipeline_example.py
+[2026-02-22T14:42:55.656+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_pipeline_example.py for tasks to queue
+[2026-02-22T14:42:55.658+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:42:55.657+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_pipeline_example.py
+[2026-02-22T14:42:55.671+0000] {processor.py:925} INFO - DAG(s) 'data_pipeline_example' retrieved from /opt/airflow/dags/data_pipeline_example.py
+[2026-02-22T14:42:55.689+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:42:55.689+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:42:55.704+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:42:55.704+0000] {dag.py:4180} INFO - Setting next_dagrun for data_pipeline_example to 2026-02-22 13:00:00+00:00, run_after=2026-02-22 14:00:00+00:00
+[2026-02-22T14:42:55.716+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_pipeline_example.py took 0.064 seconds
+[2026-02-22T14:43:27.213+0000] {processor.py:186} INFO - Started process (PID=1822) to work on /opt/airflow/dags/data_pipeline_example.py
+[2026-02-22T14:43:27.214+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_pipeline_example.py for tasks to queue
+[2026-02-22T14:43:27.215+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:43:27.215+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_pipeline_example.py
+[2026-02-22T14:43:27.229+0000] {processor.py:925} INFO - DAG(s) 'data_pipeline_example' retrieved from /opt/airflow/dags/data_pipeline_example.py
+[2026-02-22T14:43:27.247+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:43:27.246+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:43:27.262+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:43:27.262+0000] {dag.py:4180} INFO - Setting next_dagrun for data_pipeline_example to 2026-02-22 13:00:00+00:00, run_after=2026-02-22 14:00:00+00:00
+[2026-02-22T14:43:27.273+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_pipeline_example.py took 0.064 seconds
+[2026-02-22T14:43:57.693+0000] {processor.py:186} INFO - Started process (PID=1833) to work on /opt/airflow/dags/data_pipeline_example.py
+[2026-02-22T14:43:57.694+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_pipeline_example.py for tasks to queue
+[2026-02-22T14:43:57.695+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:43:57.695+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_pipeline_example.py
+[2026-02-22T14:43:57.709+0000] {processor.py:925} INFO - DAG(s) 'data_pipeline_example' retrieved from /opt/airflow/dags/data_pipeline_example.py
+[2026-02-22T14:43:57.727+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:43:57.727+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:43:57.742+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:43:57.742+0000] {dag.py:4180} INFO - Setting next_dagrun for data_pipeline_example to 2026-02-22 13:00:00+00:00, run_after=2026-02-22 14:00:00+00:00
+[2026-02-22T14:43:57.754+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_pipeline_example.py took 0.065 seconds
+[2026-02-22T14:44:28.909+0000] {processor.py:186} INFO - Started process (PID=1845) to work on /opt/airflow/dags/data_pipeline_example.py
+[2026-02-22T14:44:28.910+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_pipeline_example.py for tasks to queue
+[2026-02-22T14:44:28.912+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:44:28.911+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_pipeline_example.py
+[2026-02-22T14:44:28.925+0000] {processor.py:925} INFO - DAG(s) 'data_pipeline_example' retrieved from /opt/airflow/dags/data_pipeline_example.py
+[2026-02-22T14:44:28.943+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:44:28.943+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:44:28.958+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:44:28.958+0000] {dag.py:4180} INFO - Setting next_dagrun for data_pipeline_example to 2026-02-22 13:00:00+00:00, run_after=2026-02-22 14:00:00+00:00
+[2026-02-22T14:44:28.969+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_pipeline_example.py took 0.064 seconds
+[2026-02-22T14:44:59.261+0000] {processor.py:186} INFO - Started process (PID=1856) to work on /opt/airflow/dags/data_pipeline_example.py
+[2026-02-22T14:44:59.262+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_pipeline_example.py for tasks to queue
+[2026-02-22T14:44:59.263+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:44:59.263+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_pipeline_example.py
+[2026-02-22T14:44:59.276+0000] {processor.py:925} INFO - DAG(s) 'data_pipeline_example' retrieved from /opt/airflow/dags/data_pipeline_example.py
+[2026-02-22T14:44:59.293+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:44:59.292+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:44:59.307+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:44:59.307+0000] {dag.py:4180} INFO - Setting next_dagrun for data_pipeline_example to 2026-02-22 13:00:00+00:00, run_after=2026-02-22 14:00:00+00:00
+[2026-02-22T14:44:59.319+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_pipeline_example.py took 0.061 seconds
+[2026-02-22T14:45:32.452+0000] {processor.py:186} INFO - Started process (PID=1867) to work on /opt/airflow/dags/data_pipeline_example.py
+[2026-02-22T14:45:32.453+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_pipeline_example.py for tasks to queue
+[2026-02-22T14:45:32.455+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:45:32.455+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_pipeline_example.py
+[2026-02-22T14:45:32.468+0000] {processor.py:925} INFO - DAG(s) 'data_pipeline_example' retrieved from /opt/airflow/dags/data_pipeline_example.py
+[2026-02-22T14:45:32.489+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:45:32.488+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:45:32.504+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:45:32.504+0000] {dag.py:4180} INFO - Setting next_dagrun for data_pipeline_example to 2026-02-22 13:00:00+00:00, run_after=2026-02-22 14:00:00+00:00
+[2026-02-22T14:45:32.517+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_pipeline_example.py took 0.068 seconds
+[2026-02-22T14:46:02.848+0000] {processor.py:186} INFO - Started process (PID=1878) to work on /opt/airflow/dags/data_pipeline_example.py
+[2026-02-22T14:46:02.848+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_pipeline_example.py for tasks to queue
+[2026-02-22T14:46:02.850+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:46:02.850+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_pipeline_example.py
+[2026-02-22T14:46:02.864+0000] {processor.py:925} INFO - DAG(s) 'data_pipeline_example' retrieved from /opt/airflow/dags/data_pipeline_example.py
+[2026-02-22T14:46:02.881+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:46:02.881+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:46:02.897+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:46:02.897+0000] {dag.py:4180} INFO - Setting next_dagrun for data_pipeline_example to 2026-02-22 13:00:00+00:00, run_after=2026-02-22 14:00:00+00:00
+[2026-02-22T14:46:02.909+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_pipeline_example.py took 0.066 seconds
+[2026-02-22T14:46:34.070+0000] {processor.py:186} INFO - Started process (PID=1890) to work on /opt/airflow/dags/data_pipeline_example.py
+[2026-02-22T14:46:34.071+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_pipeline_example.py for tasks to queue
+[2026-02-22T14:46:34.073+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:46:34.072+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_pipeline_example.py
+[2026-02-22T14:46:34.086+0000] {processor.py:925} INFO - DAG(s) 'data_pipeline_example' retrieved from /opt/airflow/dags/data_pipeline_example.py
+[2026-02-22T14:46:34.105+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:46:34.105+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:46:34.120+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:46:34.120+0000] {dag.py:4180} INFO - Setting next_dagrun for data_pipeline_example to 2026-02-22 13:00:00+00:00, run_after=2026-02-22 14:00:00+00:00
+[2026-02-22T14:46:34.131+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_pipeline_example.py took 0.065 seconds
+[2026-02-22T14:47:05.128+0000] {processor.py:186} INFO - Started process (PID=1901) to work on /opt/airflow/dags/data_pipeline_example.py
+[2026-02-22T14:47:05.129+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_pipeline_example.py for tasks to queue
+[2026-02-22T14:47:05.131+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:47:05.130+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_pipeline_example.py
+[2026-02-22T14:47:05.146+0000] {processor.py:925} INFO - DAG(s) 'data_pipeline_example' retrieved from /opt/airflow/dags/data_pipeline_example.py
+[2026-02-22T14:47:05.167+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:47:05.167+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:47:05.184+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:47:05.184+0000] {dag.py:4180} INFO - Setting next_dagrun for data_pipeline_example to 2026-02-22 13:00:00+00:00, run_after=2026-02-22 14:00:00+00:00
+[2026-02-22T14:47:05.197+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_pipeline_example.py took 0.073 seconds
+[2026-02-22T14:47:35.761+0000] {processor.py:186} INFO - Started process (PID=1912) to work on /opt/airflow/dags/data_pipeline_example.py
+[2026-02-22T14:47:35.762+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_pipeline_example.py for tasks to queue
+[2026-02-22T14:47:35.763+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:47:35.763+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_pipeline_example.py
+[2026-02-22T14:47:35.777+0000] {processor.py:925} INFO - DAG(s) 'data_pipeline_example' retrieved from /opt/airflow/dags/data_pipeline_example.py
+[2026-02-22T14:47:35.795+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:47:35.795+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:47:35.811+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:47:35.811+0000] {dag.py:4180} INFO - Setting next_dagrun for data_pipeline_example to 2026-02-22 13:00:00+00:00, run_after=2026-02-22 14:00:00+00:00
+[2026-02-22T14:47:35.823+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_pipeline_example.py took 0.066 seconds
+[2026-02-22T14:48:06.179+0000] {processor.py:186} INFO - Started process (PID=1923) to work on /opt/airflow/dags/data_pipeline_example.py
+[2026-02-22T14:48:06.180+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_pipeline_example.py for tasks to queue
+[2026-02-22T14:48:06.182+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:48:06.182+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_pipeline_example.py
+[2026-02-22T14:48:06.196+0000] {processor.py:925} INFO - DAG(s) 'data_pipeline_example' retrieved from /opt/airflow/dags/data_pipeline_example.py
+[2026-02-22T14:48:06.217+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:48:06.217+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:48:06.234+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:48:06.234+0000] {dag.py:4180} INFO - Setting next_dagrun for data_pipeline_example to 2026-02-22 13:00:00+00:00, run_after=2026-02-22 14:00:00+00:00
+[2026-02-22T14:48:06.248+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_pipeline_example.py took 0.073 seconds
+[2026-02-22T14:48:37.426+0000] {processor.py:186} INFO - Started process (PID=1934) to work on /opt/airflow/dags/data_pipeline_example.py
+[2026-02-22T14:48:37.427+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_pipeline_example.py for tasks to queue
+[2026-02-22T14:48:37.429+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:48:37.428+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_pipeline_example.py
+[2026-02-22T14:48:37.442+0000] {processor.py:925} INFO - DAG(s) 'data_pipeline_example' retrieved from /opt/airflow/dags/data_pipeline_example.py
+[2026-02-22T14:48:37.460+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:48:37.460+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:48:37.477+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:48:37.477+0000] {dag.py:4180} INFO - Setting next_dagrun for data_pipeline_example to 2026-02-22 13:00:00+00:00, run_after=2026-02-22 14:00:00+00:00
+[2026-02-22T14:48:37.489+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_pipeline_example.py took 0.067 seconds
+[2026-02-22T14:49:08.431+0000] {processor.py:186} INFO - Started process (PID=1945) to work on /opt/airflow/dags/data_pipeline_example.py
+[2026-02-22T14:49:08.432+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_pipeline_example.py for tasks to queue
+[2026-02-22T14:49:08.433+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:49:08.433+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_pipeline_example.py
+[2026-02-22T14:49:08.447+0000] {processor.py:925} INFO - DAG(s) 'data_pipeline_example' retrieved from /opt/airflow/dags/data_pipeline_example.py
+[2026-02-22T14:49:08.463+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:49:08.463+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:49:08.477+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:49:08.476+0000] {dag.py:4180} INFO - Setting next_dagrun for data_pipeline_example to 2026-02-22 13:00:00+00:00, run_after=2026-02-22 14:00:00+00:00
+[2026-02-22T14:49:08.487+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_pipeline_example.py took 0.059 seconds
+[2026-02-22T14:49:40.640+0000] {processor.py:186} INFO - Started process (PID=1956) to work on /opt/airflow/dags/data_pipeline_example.py
+[2026-02-22T14:49:40.641+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_pipeline_example.py for tasks to queue
+[2026-02-22T14:49:40.642+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:49:40.642+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_pipeline_example.py
+[2026-02-22T14:49:40.655+0000] {processor.py:925} INFO - DAG(s) 'data_pipeline_example' retrieved from /opt/airflow/dags/data_pipeline_example.py
+[2026-02-22T14:49:40.671+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:49:40.671+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:49:40.685+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:49:40.685+0000] {dag.py:4180} INFO - Setting next_dagrun for data_pipeline_example to 2026-02-22 13:00:00+00:00, run_after=2026-02-22 14:00:00+00:00
+[2026-02-22T14:49:40.696+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_pipeline_example.py took 0.060 seconds
+[2026-02-22T14:50:12.833+0000] {processor.py:186} INFO - Started process (PID=1967) to work on /opt/airflow/dags/data_pipeline_example.py
+[2026-02-22T14:50:12.834+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_pipeline_example.py for tasks to queue
+[2026-02-22T14:50:12.835+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:50:12.835+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_pipeline_example.py
+[2026-02-22T14:50:12.849+0000] {processor.py:925} INFO - DAG(s) 'data_pipeline_example' retrieved from /opt/airflow/dags/data_pipeline_example.py
+[2026-02-22T14:50:12.871+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:50:12.871+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:50:12.887+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:50:12.887+0000] {dag.py:4180} INFO - Setting next_dagrun for data_pipeline_example to 2026-02-22 13:00:00+00:00, run_after=2026-02-22 14:00:00+00:00
+[2026-02-22T14:50:12.900+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_pipeline_example.py took 0.071 seconds
+[2026-02-22T14:50:44.076+0000] {processor.py:186} INFO - Started process (PID=1978) to work on /opt/airflow/dags/data_pipeline_example.py
+[2026-02-22T14:50:44.077+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_pipeline_example.py for tasks to queue
+[2026-02-22T14:50:44.078+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:50:44.078+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_pipeline_example.py
+[2026-02-22T14:50:44.095+0000] {processor.py:925} INFO - DAG(s) 'data_pipeline_example' retrieved from /opt/airflow/dags/data_pipeline_example.py
+[2026-02-22T14:50:44.135+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:50:44.135+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:50:44.157+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:50:44.157+0000] {dag.py:4180} INFO - Setting next_dagrun for data_pipeline_example to 2026-02-22 13:00:00+00:00, run_after=2026-02-22 14:00:00+00:00
+[2026-02-22T14:50:44.172+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_pipeline_example.py took 0.100 seconds

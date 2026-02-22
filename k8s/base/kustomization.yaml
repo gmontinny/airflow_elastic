@@ -1,0 +1,19 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+resources:
+  - namespace.yaml
+  - configmap.yaml
+  - secret.yaml
+  - pvc.yaml
+  - postgres.yaml
+  - redis.yaml
+  - elasticsearch.yaml
+  - kafka.yaml
+  - minio.yaml
+  - spark.yaml
+  - airflow-webserver.yaml
+  - airflow-scheduler.yaml
+  - airflow-worker.yaml
+  - hpa.yaml
+  - ingress.yaml

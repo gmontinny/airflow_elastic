@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: airflow-config
+  namespace: airflow-elastic
+data:
+  KAFKA_BROKERS: "kafka-service:9093"
+  KAFKA_SCHEMA_REGISTRY: "http://schema-registry-service:8081"
+  ELASTICSEARCH_HOST: "http://elasticsearch-service:9200"
+  SPARK_CONNECT_URL: "sc://spark-connect-service:15002"
+  AIRFLOW_UID: "50000"
+  AIRFLOW__CORE__EXECUTOR: "CeleryExecutor"
+  AIRFLOW__CORE__SQL_ALCHEMY_CONN: "postgresql+psycopg2://airflow:airflow@postgres-service:5432/airflow"
+  AIRFLOW__CELERY__BROKER_URL: "redis://redis-service:6379/0"
+  AIRFLOW__CELERY__RESULT_BACKEND: "db+postgresql://airflow:airflow@postgres-service:5432/airflow"

@@ -8,10 +8,14 @@ Plataforma integrada de orquestração de dados com Apache Airflow, Elasticsearc
 - [Arquitetura](#-arquitetura)
 - [Pré-requisitos](#-pré-requisitos)
 - [Instalação](#-instalação)
+  - [Docker Local](#docker-local)
+  - [Kubernetes Cloud](#kubernetes-cloud)
 - [Acesso aos Serviços](#-acesso-aos-serviços)
 - [DAGs Disponíveis](#-dags-disponíveis)
 - [Exemplos de Uso](#-exemplos-de-uso)
 - [Estrutura do Projeto](#-estrutura-do-projeto)
+- [Deploy em Produção](#-deploy-em-produção)
+- [Documentação Técnica](#-documentação-técnica)
 - [Troubleshooting](#-troubleshooting)
 
 ## 🎯 Visão Geral
@@ -61,33 +65,37 @@ Este projeto fornece um ambiente completo de engenharia de dados com:
 
 ## 🔧 Instalação
 
-### 1. Clone o Repositório
+### Docker Local
+
+#### 1. Clone o Repositório
 
 ```bash
 git clone <repository-url>
 cd airflow_elastic
 ```
 
-### 2. Configure as Variáveis de Ambiente
+#### 2. Configure as Variáveis de Ambiente
 
-Crie o arquivo `.env` na raiz do projeto:
+O arquivo `.env` já está configurado com:
 
 ```bash
-# Airflow
-AIRFLOW_UID=50000
-_AIRFLOW_WWW_USER_USERNAME=airflow
-_AIRFLOW_WWW_USER_PASSWORD=airflow
-
 # MinIO
 MINIO_ACCESS_KEY=minioadmin
 MINIO_SECRET_KEY=minioadmin
 
-# Kafka
+# Endpoints
 KAFKA_BROKERS=kafka:9093
 KAFKA_SCHEMA_REGISTRY=http://schema-registry:8081
+ELASTICSEARCH_HOST=http://elasticsearch:9200
+SPARK_CONNECT_URL=sc://spark-connect:15002
+
+# Airflow
+AIRFLOW_UID=50000
+_AIRFLOW_WWW_USER_USERNAME=airflow
+_AIRFLOW_WWW_USER_PASSWORD=airflow
 ```
 
-### 3. Inicie os Serviços
+#### 3. Inicie os Serviços
 
 ```bash
 docker-compose -f docker-compose-airflow.yml up -d
@@ -95,13 +103,93 @@ docker-compose -f docker-compose-airflow.yml up -d
 
 **Tempo estimado**: 5-10 minutos para primeira inicialização.
 
-### 4. Verifique o Status
+#### 4. Verifique o Status
 
 ```bash
 docker-compose -f docker-compose-airflow.yml ps
 ```
 
 Todos os serviços devem estar com status `healthy` ou `running`.
+
+### Kubernetes Cloud
+
+Para deploy em produção em AWS EKS, GCP GKE ou Azure AKS:
+
+#### 1. Pré-requisitos
+
+```bash
+# Instalar kubectl
+curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+
+# Instalar kustomize
+curl -s "https://raw.githubusercontent.com/kubernetes-sigs/kustomize/master/hack/install_kustomize.sh" | bash
+```
+
+#### 2. Criar Cluster
+
+**AWS EKS**:
+```bash
+eksctl create cluster \
+  --name airflow-elastic \
+  --region us-east-1 \
+  --nodegroup-name standard-workers \
+  --node-type t3.xlarge \
+  --nodes 3 \
+  --nodes-min 2 \
+  --nodes-max 10
+```
+
+**GCP GKE**:
+```bash
+gcloud container clusters create airflow-elastic \
+  --zone us-central1-a \
+  --machine-type n1-standard-4 \
+  --num-nodes 3 \
+  --enable-autoscaling \
+  --min-nodes 2 \
+  --max-nodes 10
+```
+
+**Azure AKS**:
+```bash
+az aks create \
+  --resource-group airflow-rg \
+  --name airflow-elastic \
+  --node-count 3 \
+  --node-vm-size Standard_D4s_v3 \
+  --enable-cluster-autoscaler \
+  --min-count 2 \
+  --max-count 10
+```
+
+#### 3. Deploy
+
+**Desenvolvimento**:
+```bash
+kubectl apply -k k8s/overlays/dev/
+```
+
+**Produção**:
+```bash
+# Atualizar secrets
+kubectl create secret generic airflow-secrets \
+  --from-literal=MINIO_ACCESS_KEY=<seu-access-key> \
+  --from-literal=MINIO_SECRET_KEY=<seu-secret-key> \
+  --from-literal=AIRFLOW_WWW_USER_PASSWORD=<senha-forte> \
+  -n airflow-elastic
+
+# Deploy
+kubectl apply -k k8s/overlays/prod/
+```
+
+#### 4. Verificar Status
+
+```bash
+kubectl get pods -n airflow-elastic
+kubectl get svc -n airflow-elastic
+```
+
+**Documentação completa**: [k8s/README.md](k8s/README.md)
 
 ## 🌐 Acesso aos Serviços
 
@@ -384,6 +472,30 @@ airflow_elastic/
 │   └── spark_elasticsearch_pipeline.py
 ├── data/                   # Dados de entrada
 │   └── mm_dataset.csv
+├── docs/                   # Documentação técnica
+│   └── artigo_dags_elasticsearch.md
+├── k8s/                    # Kubernetes manifests
+│   ├── base/               # Configurações base
+│   │   ├── namespace.yaml
+│   │   ├── configmap.yaml
+│   │   ├── secret.yaml
+│   │   ├── pvc.yaml
+│   │   ├── postgres.yaml
+│   │   ├── redis.yaml
+│   │   ├── elasticsearch.yaml
+│   │   ├── kafka.yaml
+│   │   ├── minio.yaml
+│   │   ├── spark.yaml
+│   │   ├── airflow-webserver.yaml
+│   │   ├── airflow-scheduler.yaml
+│   │   ├── airflow-worker.yaml
+│   │   ├── hpa.yaml
+│   │   ├── ingress.yaml
+│   │   └── kustomization.yaml
+│   ├── overlays/
+│   │   ├── dev/            # Ambiente desenvolvimento
+│   │   └── prod/           # Ambiente produção
+│   └── README.md
 ├── logs/                   # Logs do Airflow
 ├── plugins/                # Plugins customizados
 ├── config/                 # Configurações
@@ -391,6 +503,7 @@ airflow_elastic/
 ├── spark-connect/          # Configuração Spark
 │   ├── Dockerfile
 │   └── conf/
+├── .env                    # Variáveis de ambiente
 ├── docker-compose-airflow.yml
 ├── requirements.txt
 ├── pyproject.toml
@@ -473,13 +586,90 @@ lsof -i :<PORT>
 
 Portas utilizadas: 2181, 5000, 8030, 8040, 8080, 8081, 8088, 9000, 9001, 9020, 9030, 9092, 9200, 9300, 9600, 15002
 
+## 🚀 Deploy em Produção
+
+### Ambientes Disponíveis
+
+| Ambiente | Réplicas Workers | Elasticsearch Nodes | Custo Estimado/Mês |
+|----------|------------------|---------------------|--------------------|
+| **Dev** | 1 | 1 | $150-300 |
+| **Prod** | 5 | 3 | $800-1500 |
+
+### Recursos Kubernetes
+
+✅ **Infraestrutura**:
+- PostgreSQL (metastore)
+- Redis (message broker)
+- Elasticsearch (busca/análise)
+- Kafka + Zookeeper (streaming)
+- MinIO (object storage)
+- Spark Connect (processamento)
+
+✅ **Airflow**:
+- Webserver (UI com LoadBalancer)
+- Scheduler (orquestração)
+- Worker (execução Celery com HPA)
+
+✅ **Features Avançadas**:
+- HorizontalPodAutoscaler (escalonamento automático)
+- Ingress com HTTPS (cert-manager)
+- PersistentVolumeClaims (armazenamento persistente)
+- ConfigMaps e Secrets (configuração segura)
+
+### Clouds Suportadas
+
+- ☁️ **AWS EKS** (Elastic Kubernetes Service)
+- ☁️ **GCP GKE** (Google Kubernetes Engine)
+- ☁️ **Azure AKS** (Azure Kubernetes Service)
+- 🏠 **On-premises** (Kubernetes self-hosted)
+
+**Documentação completa**: [k8s/README.md](k8s/README.md)
+
+## 📖 Documentação Técnica
+
+### Artigos Disponíveis
+
+#### [Pipeline de Dados com Elasticsearch e Apache Airflow](docs/artigo_dags_elasticsearch.md)
+
+Artigo técnico completo sobre as DAGs do Elasticsearch:
+
+**Conteúdo**:
+- ✅ Análise detalhada de cada DAG e task
+- ✅ Conceitos fundamentais (Idempotência, Bulk Operations, Schema Design)
+- ✅ Padrões e boas práticas de engenharia de dados
+- ✅ Casos de uso reais (E-commerce, Fintech, IoT, Log Analytics)
+- ✅ Otimizações avançadas e tuning de performance
+- ✅ Comparações técnicas (Spark vs Pandas, keyword vs text)
+- ✅ Métricas e monitoramento
+
+**Público-alvo**:
+- Engenheiros de dados iniciantes a avançados
+- Desenvolvedores aprendendo Big Data
+- Arquitetos de soluções de dados
+
+**Tópicos abordados**:
+1. DAG 1: Elasticsearch Indexer (indexação básica)
+2. DAG 2: Spark Elasticsearch Pipeline (processamento distribuído)
+3. Conceitos fundamentais para engenheiros de dados
+4. Padrões e boas práticas
+5. Casos de uso reais em produção
+6. Próximos passos e evoluções
+
 ## 📚 Recursos Adicionais
+
+### Documentação Oficial
 
 - [Documentação Apache Airflow](https://airflow.apache.org/docs/)
 - [Documentação Elasticsearch](https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html)
 - [Documentação Apache Kafka](https://kafka.apache.org/documentation/)
 - [Documentação Apache Spark](https://spark.apache.org/docs/latest/)
 - [Documentação MinIO](https://min.io/docs/minio/linux/index.html)
+- [Kubernetes Documentation](https://kubernetes.io/docs/)
+
+### Guias do Projeto
+
+- [Deploy Kubernetes](k8s/README.md) - Guia completo de deploy em cloud
+- [Artigo Elasticsearch DAGs](docs/artigo_dags_elasticsearch.md) - Análise técnica detalhada
 
 ## 🤝 Contribuindo
 
@@ -497,6 +687,40 @@ Este projeto está sob a licença MIT.
 
 Desenvolvido pela equipe de Data Engineering.
 
+## 📊 Status do Projeto
+
+- ✅ Docker Compose para desenvolvimento local
+- ✅ 4 DAGs funcionais (Kafka, Elasticsearch, Spark)
+- ✅ Kubernetes manifests para produção
+- ✅ Documentação técnica completa
+- ✅ Suporte para AWS, GCP e Azure
+- ✅ HPA e autoscaling configurado
+- ✅ Ingress com HTTPS
+- 🔄 Monitoramento com Prometheus/Grafana (em desenvolvimento)
+- 🔄 CI/CD pipeline (em desenvolvimento)
+
 ---
 
-**Nota**: Este é um ambiente de desenvolvimento. Para produção, configure autenticação, SSL/TLS e ajuste recursos conforme necessário.
+## 🎯 Próximos Passos
+
+### Para Iniciantes
+1. ✅ Execute as DAGs localmente com Docker
+2. ✅ Leia o [artigo técnico](docs/artigo_dags_elasticsearch.md)
+3. ✅ Experimente modificar as DAGs
+4. ✅ Explore queries no Elasticsearch
+
+### Para Intermediários
+1. ✅ Deploy em Kubernetes (ambiente dev)
+2. ✅ Implemente novas DAGs
+3. ✅ Configure monitoramento
+4. ✅ Otimize performance
+
+### Para Avançados
+1. ✅ Deploy em produção com alta disponibilidade
+2. ✅ Implemente streaming com Kafka
+3. ✅ Adicione Machine Learning ao pipeline
+4. ✅ Configure observabilidade completa
+
+---
+
+**Nota**: Este projeto fornece ambientes para desenvolvimento (Docker) e produção (Kubernetes). Configure autenticação, SSL/TLS e ajuste recursos conforme necessário.
