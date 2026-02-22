@@ -727,3 +727,360 @@
 [2026-02-22T14:15:17.239+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:15:17.239+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-02-22T14:15:17.250+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:15:17.250+0000] {dag.py:4180} INFO - Setting next_dagrun for elasticsearch_indexer to None, run_after=None
 [2026-02-22T14:15:17.265+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elasticsearch_indexer.py took 0.135 seconds
+[2026-02-22T14:15:47.322+0000] {processor.py:186} INFO - Started process (PID=1235) to work on /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:15:47.322+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elasticsearch_indexer.py for tasks to queue
+[2026-02-22T14:15:47.324+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:15:47.324+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:15:47.399+0000] {processor.py:925} INFO - DAG(s) 'elasticsearch_indexer' retrieved from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:15:47.419+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:15:47.419+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:15:47.432+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:15:47.432+0000] {dag.py:4180} INFO - Setting next_dagrun for elasticsearch_indexer to None, run_after=None
+[2026-02-22T14:15:47.446+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elasticsearch_indexer.py took 0.129 seconds
+[2026-02-22T14:16:18.323+0000] {processor.py:186} INFO - Started process (PID=1246) to work on /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:16:18.323+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elasticsearch_indexer.py for tasks to queue
+[2026-02-22T14:16:18.325+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:16:18.324+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:16:18.393+0000] {processor.py:925} INFO - DAG(s) 'elasticsearch_indexer' retrieved from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:16:18.409+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:16:18.409+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:16:18.419+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:16:18.419+0000] {dag.py:4180} INFO - Setting next_dagrun for elasticsearch_indexer to None, run_after=None
+[2026-02-22T14:16:18.431+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elasticsearch_indexer.py took 0.112 seconds
+[2026-02-22T14:16:51.472+0000] {processor.py:186} INFO - Started process (PID=1257) to work on /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:16:51.472+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elasticsearch_indexer.py for tasks to queue
+[2026-02-22T14:16:51.474+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:16:51.474+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:16:51.540+0000] {processor.py:925} INFO - DAG(s) 'elasticsearch_indexer' retrieved from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:16:51.556+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:16:51.556+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:16:51.564+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:16:51.564+0000] {dag.py:4180} INFO - Setting next_dagrun for elasticsearch_indexer to None, run_after=None
+[2026-02-22T14:16:51.575+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elasticsearch_indexer.py took 0.107 seconds
+[2026-02-22T14:17:23.650+0000] {processor.py:186} INFO - Started process (PID=1268) to work on /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:17:23.651+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elasticsearch_indexer.py for tasks to queue
+[2026-02-22T14:17:23.652+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:17:23.652+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:17:23.714+0000] {processor.py:925} INFO - DAG(s) 'elasticsearch_indexer' retrieved from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:17:23.729+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:17:23.729+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:17:23.737+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:17:23.737+0000] {dag.py:4180} INFO - Setting next_dagrun for elasticsearch_indexer to None, run_after=None
+[2026-02-22T14:17:23.749+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elasticsearch_indexer.py took 0.102 seconds
+[2026-02-22T14:17:56.783+0000] {processor.py:186} INFO - Started process (PID=1279) to work on /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:17:56.783+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elasticsearch_indexer.py for tasks to queue
+[2026-02-22T14:17:56.785+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:17:56.785+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:17:56.863+0000] {processor.py:925} INFO - DAG(s) 'elasticsearch_indexer' retrieved from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:17:56.881+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:17:56.880+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:17:56.890+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:17:56.889+0000] {dag.py:4180} INFO - Setting next_dagrun for elasticsearch_indexer to None, run_after=None
+[2026-02-22T14:17:56.901+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elasticsearch_indexer.py took 0.123 seconds
+[2026-02-22T14:18:27.734+0000] {processor.py:186} INFO - Started process (PID=1290) to work on /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:18:27.735+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elasticsearch_indexer.py for tasks to queue
+[2026-02-22T14:18:27.737+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:18:27.736+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:18:27.807+0000] {processor.py:925} INFO - DAG(s) 'elasticsearch_indexer' retrieved from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:18:27.823+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:18:27.823+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:18:27.833+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:18:27.832+0000] {dag.py:4180} INFO - Setting next_dagrun for elasticsearch_indexer to None, run_after=None
+[2026-02-22T14:18:27.845+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elasticsearch_indexer.py took 0.116 seconds
+[2026-02-22T14:18:58.224+0000] {processor.py:186} INFO - Started process (PID=1301) to work on /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:18:58.225+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elasticsearch_indexer.py for tasks to queue
+[2026-02-22T14:18:58.226+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:18:58.226+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:18:58.298+0000] {processor.py:925} INFO - DAG(s) 'elasticsearch_indexer' retrieved from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:18:58.314+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:18:58.314+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:18:58.326+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:18:58.326+0000] {dag.py:4180} INFO - Setting next_dagrun for elasticsearch_indexer to None, run_after=None
+[2026-02-22T14:18:58.339+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elasticsearch_indexer.py took 0.120 seconds
+[2026-02-22T14:19:28.541+0000] {processor.py:186} INFO - Started process (PID=1312) to work on /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:19:28.542+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elasticsearch_indexer.py for tasks to queue
+[2026-02-22T14:19:28.543+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:19:28.543+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:19:28.614+0000] {processor.py:925} INFO - DAG(s) 'elasticsearch_indexer' retrieved from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:19:28.630+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:19:28.630+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:19:28.639+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:19:28.639+0000] {dag.py:4180} INFO - Setting next_dagrun for elasticsearch_indexer to None, run_after=None
+[2026-02-22T14:19:28.651+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elasticsearch_indexer.py took 0.114 seconds
+[2026-02-22T14:19:59.685+0000] {processor.py:186} INFO - Started process (PID=1323) to work on /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:19:59.686+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elasticsearch_indexer.py for tasks to queue
+[2026-02-22T14:19:59.689+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:19:59.688+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:19:59.770+0000] {processor.py:925} INFO - DAG(s) 'elasticsearch_indexer' retrieved from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:19:59.787+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:19:59.787+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:19:59.798+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:19:59.798+0000] {dag.py:4180} INFO - Setting next_dagrun for elasticsearch_indexer to None, run_after=None
+[2026-02-22T14:19:59.813+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elasticsearch_indexer.py took 0.133 seconds
+[2026-02-22T14:20:30.668+0000] {processor.py:186} INFO - Started process (PID=1334) to work on /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:20:30.669+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elasticsearch_indexer.py for tasks to queue
+[2026-02-22T14:20:30.670+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:20:30.670+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:20:30.738+0000] {processor.py:925} INFO - DAG(s) 'elasticsearch_indexer' retrieved from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:20:30.754+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:20:30.754+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:20:30.763+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:20:30.763+0000] {dag.py:4180} INFO - Setting next_dagrun for elasticsearch_indexer to None, run_after=None
+[2026-02-22T14:20:30.775+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elasticsearch_indexer.py took 0.110 seconds
+[2026-02-22T14:21:01.152+0000] {processor.py:186} INFO - Started process (PID=1345) to work on /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:21:01.152+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elasticsearch_indexer.py for tasks to queue
+[2026-02-22T14:21:01.154+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:21:01.154+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:21:01.230+0000] {processor.py:925} INFO - DAG(s) 'elasticsearch_indexer' retrieved from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:21:01.248+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:21:01.248+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:21:01.257+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:21:01.257+0000] {dag.py:4180} INFO - Setting next_dagrun for elasticsearch_indexer to None, run_after=None
+[2026-02-22T14:21:01.270+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elasticsearch_indexer.py took 0.123 seconds
+[2026-02-22T14:21:31.488+0000] {processor.py:186} INFO - Started process (PID=1356) to work on /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:21:31.489+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elasticsearch_indexer.py for tasks to queue
+[2026-02-22T14:21:31.490+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:21:31.490+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:21:31.557+0000] {processor.py:925} INFO - DAG(s) 'elasticsearch_indexer' retrieved from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:21:31.573+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:21:31.572+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:21:31.581+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:21:31.581+0000] {dag.py:4180} INFO - Setting next_dagrun for elasticsearch_indexer to None, run_after=None
+[2026-02-22T14:21:31.592+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elasticsearch_indexer.py took 0.108 seconds
+[2026-02-22T14:22:04.643+0000] {processor.py:186} INFO - Started process (PID=1367) to work on /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:22:04.643+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elasticsearch_indexer.py for tasks to queue
+[2026-02-22T14:22:04.645+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:22:04.645+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:22:04.718+0000] {processor.py:925} INFO - DAG(s) 'elasticsearch_indexer' retrieved from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:22:04.735+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:22:04.735+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:22:04.745+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:22:04.745+0000] {dag.py:4180} INFO - Setting next_dagrun for elasticsearch_indexer to None, run_after=None
+[2026-02-22T14:22:04.758+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elasticsearch_indexer.py took 0.118 seconds
+[2026-02-22T14:22:35.640+0000] {processor.py:186} INFO - Started process (PID=1378) to work on /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:22:35.640+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elasticsearch_indexer.py for tasks to queue
+[2026-02-22T14:22:35.642+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:22:35.641+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:22:35.712+0000] {processor.py:925} INFO - DAG(s) 'elasticsearch_indexer' retrieved from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:22:35.729+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:22:35.728+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:22:35.739+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:22:35.739+0000] {dag.py:4180} INFO - Setting next_dagrun for elasticsearch_indexer to None, run_after=None
+[2026-02-22T14:22:35.751+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elasticsearch_indexer.py took 0.116 seconds
+[2026-02-22T14:23:06.093+0000] {processor.py:186} INFO - Started process (PID=1389) to work on /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:23:06.094+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elasticsearch_indexer.py for tasks to queue
+[2026-02-22T14:23:06.096+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:23:06.096+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:23:06.173+0000] {processor.py:925} INFO - DAG(s) 'elasticsearch_indexer' retrieved from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:23:06.189+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:23:06.189+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:23:06.200+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:23:06.200+0000] {dag.py:4180} INFO - Setting next_dagrun for elasticsearch_indexer to None, run_after=None
+[2026-02-22T14:23:06.213+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elasticsearch_indexer.py took 0.124 seconds
+[2026-02-22T14:23:37.395+0000] {processor.py:186} INFO - Started process (PID=1400) to work on /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:23:37.396+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elasticsearch_indexer.py for tasks to queue
+[2026-02-22T14:23:37.398+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:23:37.398+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:23:37.472+0000] {processor.py:925} INFO - DAG(s) 'elasticsearch_indexer' retrieved from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:23:37.489+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:23:37.489+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:23:37.501+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:23:37.501+0000] {dag.py:4180} INFO - Setting next_dagrun for elasticsearch_indexer to None, run_after=None
+[2026-02-22T14:23:37.518+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elasticsearch_indexer.py took 0.126 seconds
+[2026-02-22T14:24:07.593+0000] {processor.py:186} INFO - Started process (PID=1411) to work on /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:24:07.594+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elasticsearch_indexer.py for tasks to queue
+[2026-02-22T14:24:07.595+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:24:07.595+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:24:07.665+0000] {processor.py:925} INFO - DAG(s) 'elasticsearch_indexer' retrieved from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:24:07.683+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:24:07.682+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:24:07.693+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:24:07.693+0000] {dag.py:4180} INFO - Setting next_dagrun for elasticsearch_indexer to None, run_after=None
+[2026-02-22T14:24:07.708+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elasticsearch_indexer.py took 0.119 seconds
+[2026-02-22T14:24:38.480+0000] {processor.py:186} INFO - Started process (PID=1422) to work on /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:24:38.480+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elasticsearch_indexer.py for tasks to queue
+[2026-02-22T14:24:38.482+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:24:38.482+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:24:38.556+0000] {processor.py:925} INFO - DAG(s) 'elasticsearch_indexer' retrieved from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:24:38.574+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:24:38.574+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:24:38.584+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:24:38.584+0000] {dag.py:4180} INFO - Setting next_dagrun for elasticsearch_indexer to None, run_after=None
+[2026-02-22T14:24:38.597+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elasticsearch_indexer.py took 0.121 seconds
+[2026-02-22T14:25:08.960+0000] {processor.py:186} INFO - Started process (PID=1433) to work on /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:25:08.961+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elasticsearch_indexer.py for tasks to queue
+[2026-02-22T14:25:08.963+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:25:08.962+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:25:09.030+0000] {processor.py:925} INFO - DAG(s) 'elasticsearch_indexer' retrieved from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:25:09.046+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:25:09.046+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:25:09.056+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:25:09.056+0000] {dag.py:4180} INFO - Setting next_dagrun for elasticsearch_indexer to None, run_after=None
+[2026-02-22T14:25:09.068+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elasticsearch_indexer.py took 0.111 seconds
+[2026-02-22T14:25:40.246+0000] {processor.py:186} INFO - Started process (PID=1444) to work on /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:25:40.246+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elasticsearch_indexer.py for tasks to queue
+[2026-02-22T14:25:40.248+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:25:40.248+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:25:40.313+0000] {processor.py:925} INFO - DAG(s) 'elasticsearch_indexer' retrieved from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:25:40.327+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:25:40.327+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:25:40.336+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:25:40.336+0000] {dag.py:4180} INFO - Setting next_dagrun for elasticsearch_indexer to None, run_after=None
+[2026-02-22T14:25:40.348+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elasticsearch_indexer.py took 0.106 seconds
+[2026-02-22T14:26:12.392+0000] {processor.py:186} INFO - Started process (PID=1455) to work on /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:26:12.393+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elasticsearch_indexer.py for tasks to queue
+[2026-02-22T14:26:12.394+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:26:12.394+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:26:12.463+0000] {processor.py:925} INFO - DAG(s) 'elasticsearch_indexer' retrieved from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:26:12.479+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:26:12.478+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:26:12.488+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:26:12.488+0000] {dag.py:4180} INFO - Setting next_dagrun for elasticsearch_indexer to None, run_after=None
+[2026-02-22T14:26:12.500+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elasticsearch_indexer.py took 0.111 seconds
+[2026-02-22T14:26:45.549+0000] {processor.py:186} INFO - Started process (PID=1466) to work on /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:26:45.550+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elasticsearch_indexer.py for tasks to queue
+[2026-02-22T14:26:45.551+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:26:45.551+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:26:45.618+0000] {processor.py:925} INFO - DAG(s) 'elasticsearch_indexer' retrieved from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:26:45.633+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:26:45.633+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:26:45.641+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:26:45.641+0000] {dag.py:4180} INFO - Setting next_dagrun for elasticsearch_indexer to None, run_after=None
+[2026-02-22T14:26:45.652+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elasticsearch_indexer.py took 0.107 seconds
+[2026-02-22T14:27:18.743+0000] {processor.py:186} INFO - Started process (PID=1477) to work on /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:27:18.744+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elasticsearch_indexer.py for tasks to queue
+[2026-02-22T14:27:18.745+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:27:18.745+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:27:18.816+0000] {processor.py:925} INFO - DAG(s) 'elasticsearch_indexer' retrieved from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:27:18.835+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:27:18.834+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:27:18.846+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:27:18.846+0000] {dag.py:4180} INFO - Setting next_dagrun for elasticsearch_indexer to None, run_after=None
+[2026-02-22T14:27:18.859+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elasticsearch_indexer.py took 0.120 seconds
+[2026-02-22T14:27:49.014+0000] {processor.py:186} INFO - Started process (PID=1488) to work on /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:27:49.014+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elasticsearch_indexer.py for tasks to queue
+[2026-02-22T14:27:49.016+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:27:49.016+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:27:49.092+0000] {processor.py:925} INFO - DAG(s) 'elasticsearch_indexer' retrieved from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:27:49.110+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:27:49.109+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:27:49.119+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:27:49.119+0000] {dag.py:4180} INFO - Setting next_dagrun for elasticsearch_indexer to None, run_after=None
+[2026-02-22T14:27:49.132+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elasticsearch_indexer.py took 0.122 seconds
+[2026-02-22T14:28:20.113+0000] {processor.py:186} INFO - Started process (PID=1499) to work on /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:28:20.114+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elasticsearch_indexer.py for tasks to queue
+[2026-02-22T14:28:20.116+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:28:20.115+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:28:20.194+0000] {processor.py:925} INFO - DAG(s) 'elasticsearch_indexer' retrieved from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:28:20.213+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:28:20.213+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:28:20.225+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:28:20.224+0000] {dag.py:4180} INFO - Setting next_dagrun for elasticsearch_indexer to None, run_after=None
+[2026-02-22T14:28:20.239+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elasticsearch_indexer.py took 0.131 seconds
+[2026-02-22T14:28:50.764+0000] {processor.py:186} INFO - Started process (PID=1510) to work on /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:28:50.765+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elasticsearch_indexer.py for tasks to queue
+[2026-02-22T14:28:50.767+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:28:50.767+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:28:50.847+0000] {processor.py:925} INFO - DAG(s) 'elasticsearch_indexer' retrieved from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:28:50.867+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:28:50.867+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:28:50.879+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:28:50.879+0000] {dag.py:4180} INFO - Setting next_dagrun for elasticsearch_indexer to None, run_after=None
+[2026-02-22T14:28:50.895+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elasticsearch_indexer.py took 0.135 seconds
+[2026-02-22T14:29:22.239+0000] {processor.py:186} INFO - Started process (PID=1521) to work on /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:29:22.239+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elasticsearch_indexer.py for tasks to queue
+[2026-02-22T14:29:22.241+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:29:22.241+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:29:22.310+0000] {processor.py:925} INFO - DAG(s) 'elasticsearch_indexer' retrieved from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:29:22.327+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:29:22.327+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:29:22.336+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:29:22.336+0000] {dag.py:4180} INFO - Setting next_dagrun for elasticsearch_indexer to None, run_after=None
+[2026-02-22T14:29:22.348+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elasticsearch_indexer.py took 0.113 seconds
+[2026-02-22T14:29:52.518+0000] {processor.py:186} INFO - Started process (PID=1532) to work on /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:29:52.519+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elasticsearch_indexer.py for tasks to queue
+[2026-02-22T14:29:52.521+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:29:52.521+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:29:52.599+0000] {processor.py:925} INFO - DAG(s) 'elasticsearch_indexer' retrieved from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:29:52.616+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:29:52.616+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:29:52.627+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:29:52.627+0000] {dag.py:4180} INFO - Setting next_dagrun for elasticsearch_indexer to None, run_after=None
+[2026-02-22T14:29:52.644+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elasticsearch_indexer.py took 0.130 seconds
+[2026-02-22T14:30:23.622+0000] {processor.py:186} INFO - Started process (PID=1543) to work on /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:30:23.623+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elasticsearch_indexer.py for tasks to queue
+[2026-02-22T14:30:23.625+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:30:23.624+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:30:23.694+0000] {processor.py:925} INFO - DAG(s) 'elasticsearch_indexer' retrieved from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:30:23.710+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:30:23.710+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:30:23.720+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:30:23.720+0000] {dag.py:4180} INFO - Setting next_dagrun for elasticsearch_indexer to None, run_after=None
+[2026-02-22T14:30:23.732+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elasticsearch_indexer.py took 0.114 seconds
+[2026-02-22T14:30:54.240+0000] {processor.py:186} INFO - Started process (PID=1554) to work on /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:30:54.241+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elasticsearch_indexer.py for tasks to queue
+[2026-02-22T14:30:54.242+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:30:54.242+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:30:54.306+0000] {processor.py:925} INFO - DAG(s) 'elasticsearch_indexer' retrieved from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:30:54.321+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:30:54.321+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:30:54.330+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:30:54.329+0000] {dag.py:4180} INFO - Setting next_dagrun for elasticsearch_indexer to None, run_after=None
+[2026-02-22T14:30:54.341+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elasticsearch_indexer.py took 0.105 seconds
+[2026-02-22T14:31:27.382+0000] {processor.py:186} INFO - Started process (PID=1565) to work on /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:31:27.383+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elasticsearch_indexer.py for tasks to queue
+[2026-02-22T14:31:27.384+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:31:27.384+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:31:27.450+0000] {processor.py:925} INFO - DAG(s) 'elasticsearch_indexer' retrieved from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:31:27.466+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:31:27.465+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:31:27.475+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:31:27.475+0000] {dag.py:4180} INFO - Setting next_dagrun for elasticsearch_indexer to None, run_after=None
+[2026-02-22T14:31:27.487+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elasticsearch_indexer.py took 0.108 seconds
+[2026-02-22T14:31:59.512+0000] {processor.py:186} INFO - Started process (PID=1576) to work on /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:31:59.513+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elasticsearch_indexer.py for tasks to queue
+[2026-02-22T14:31:59.515+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:31:59.515+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:31:59.589+0000] {processor.py:925} INFO - DAG(s) 'elasticsearch_indexer' retrieved from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:31:59.606+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:31:59.606+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:31:59.615+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:31:59.615+0000] {dag.py:4180} INFO - Setting next_dagrun for elasticsearch_indexer to None, run_after=None
+[2026-02-22T14:31:59.629+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elasticsearch_indexer.py took 0.121 seconds
+[2026-02-22T14:32:30.632+0000] {processor.py:186} INFO - Started process (PID=1587) to work on /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:32:30.633+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elasticsearch_indexer.py for tasks to queue
+[2026-02-22T14:32:30.634+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:32:30.634+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:32:30.705+0000] {processor.py:925} INFO - DAG(s) 'elasticsearch_indexer' retrieved from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:32:30.722+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:32:30.721+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:32:30.732+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:32:30.731+0000] {dag.py:4180} INFO - Setting next_dagrun for elasticsearch_indexer to None, run_after=None
+[2026-02-22T14:32:30.743+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elasticsearch_indexer.py took 0.115 seconds
+[2026-02-22T14:33:01.244+0000] {processor.py:186} INFO - Started process (PID=1598) to work on /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:33:01.244+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elasticsearch_indexer.py for tasks to queue
+[2026-02-22T14:33:01.246+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:33:01.246+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:33:01.322+0000] {processor.py:925} INFO - DAG(s) 'elasticsearch_indexer' retrieved from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:33:01.340+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:33:01.340+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:33:01.350+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:33:01.350+0000] {dag.py:4180} INFO - Setting next_dagrun for elasticsearch_indexer to None, run_after=None
+[2026-02-22T14:33:01.363+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elasticsearch_indexer.py took 0.124 seconds
+[2026-02-22T14:33:32.697+0000] {processor.py:186} INFO - Started process (PID=1609) to work on /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:33:32.697+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elasticsearch_indexer.py for tasks to queue
+[2026-02-22T14:33:32.699+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:33:32.699+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:33:32.782+0000] {processor.py:925} INFO - DAG(s) 'elasticsearch_indexer' retrieved from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:33:32.802+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:33:32.802+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:33:32.813+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:33:32.813+0000] {dag.py:4180} INFO - Setting next_dagrun for elasticsearch_indexer to None, run_after=None
+[2026-02-22T14:33:32.827+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elasticsearch_indexer.py took 0.135 seconds
+[2026-02-22T14:34:03.981+0000] {processor.py:186} INFO - Started process (PID=1620) to work on /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:34:03.982+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elasticsearch_indexer.py for tasks to queue
+[2026-02-22T14:34:03.983+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:34:03.983+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:34:04.058+0000] {processor.py:925} INFO - DAG(s) 'elasticsearch_indexer' retrieved from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:34:04.077+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:34:04.076+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:34:04.087+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:34:04.087+0000] {dag.py:4180} INFO - Setting next_dagrun for elasticsearch_indexer to None, run_after=None
+[2026-02-22T14:34:04.106+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elasticsearch_indexer.py took 0.128 seconds
+[2026-02-22T14:34:35.075+0000] {processor.py:186} INFO - Started process (PID=1631) to work on /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:34:35.076+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elasticsearch_indexer.py for tasks to queue
+[2026-02-22T14:34:35.078+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:34:35.078+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:34:35.149+0000] {processor.py:925} INFO - DAG(s) 'elasticsearch_indexer' retrieved from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:34:35.164+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:34:35.164+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:34:35.174+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:34:35.174+0000] {dag.py:4180} INFO - Setting next_dagrun for elasticsearch_indexer to None, run_after=None
+[2026-02-22T14:34:35.187+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elasticsearch_indexer.py took 0.120 seconds
+[2026-02-22T14:35:05.681+0000] {processor.py:186} INFO - Started process (PID=1642) to work on /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:35:05.681+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elasticsearch_indexer.py for tasks to queue
+[2026-02-22T14:35:05.683+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:35:05.682+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:35:05.751+0000] {processor.py:925} INFO - DAG(s) 'elasticsearch_indexer' retrieved from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:35:05.768+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:35:05.768+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:35:05.778+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:35:05.778+0000] {dag.py:4180} INFO - Setting next_dagrun for elasticsearch_indexer to None, run_after=None
+[2026-02-22T14:35:05.790+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elasticsearch_indexer.py took 0.113 seconds
+[2026-02-22T14:35:36.111+0000] {processor.py:186} INFO - Started process (PID=1653) to work on /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:35:36.112+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elasticsearch_indexer.py for tasks to queue
+[2026-02-22T14:35:36.113+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:35:36.113+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:35:36.181+0000] {processor.py:925} INFO - DAG(s) 'elasticsearch_indexer' retrieved from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:35:36.196+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:35:36.196+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:35:36.206+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:35:36.206+0000] {dag.py:4180} INFO - Setting next_dagrun for elasticsearch_indexer to None, run_after=None
+[2026-02-22T14:35:36.220+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elasticsearch_indexer.py took 0.112 seconds
+[2026-02-22T14:36:09.265+0000] {processor.py:186} INFO - Started process (PID=1664) to work on /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:36:09.266+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elasticsearch_indexer.py for tasks to queue
+[2026-02-22T14:36:09.268+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:36:09.267+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:36:09.336+0000] {processor.py:925} INFO - DAG(s) 'elasticsearch_indexer' retrieved from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:36:09.353+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:36:09.352+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:36:09.362+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:36:09.362+0000] {dag.py:4180} INFO - Setting next_dagrun for elasticsearch_indexer to None, run_after=None
+[2026-02-22T14:36:09.376+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elasticsearch_indexer.py took 0.114 seconds
+[2026-02-22T14:36:41.422+0000] {processor.py:186} INFO - Started process (PID=1675) to work on /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:36:41.422+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elasticsearch_indexer.py for tasks to queue
+[2026-02-22T14:36:41.424+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:36:41.424+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:36:41.505+0000] {processor.py:925} INFO - DAG(s) 'elasticsearch_indexer' retrieved from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:36:41.523+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:36:41.523+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:36:41.534+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:36:41.534+0000] {dag.py:4180} INFO - Setting next_dagrun for elasticsearch_indexer to None, run_after=None
+[2026-02-22T14:36:41.548+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elasticsearch_indexer.py took 0.134 seconds
+[2026-02-22T14:37:13.034+0000] {processor.py:186} INFO - Started process (PID=1687) to work on /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:37:13.035+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elasticsearch_indexer.py for tasks to queue
+[2026-02-22T14:37:13.036+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:37:13.036+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:37:13.106+0000] {processor.py:925} INFO - DAG(s) 'elasticsearch_indexer' retrieved from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:37:13.122+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:37:13.122+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:37:13.131+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:37:13.131+0000] {dag.py:4180} INFO - Setting next_dagrun for elasticsearch_indexer to None, run_after=None
+[2026-02-22T14:37:13.145+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elasticsearch_indexer.py took 0.115 seconds
+[2026-02-22T14:37:43.464+0000] {processor.py:186} INFO - Started process (PID=1698) to work on /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:37:43.464+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elasticsearch_indexer.py for tasks to queue
+[2026-02-22T14:37:43.466+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:37:43.465+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:37:43.542+0000] {processor.py:925} INFO - DAG(s) 'elasticsearch_indexer' retrieved from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:37:43.559+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:37:43.559+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:37:43.569+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:37:43.569+0000] {dag.py:4180} INFO - Setting next_dagrun for elasticsearch_indexer to None, run_after=None
+[2026-02-22T14:37:43.582+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elasticsearch_indexer.py took 0.122 seconds
+[2026-02-22T14:38:14.706+0000] {processor.py:186} INFO - Started process (PID=1709) to work on /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:38:14.706+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elasticsearch_indexer.py for tasks to queue
+[2026-02-22T14:38:14.708+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:38:14.708+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:38:14.780+0000] {processor.py:925} INFO - DAG(s) 'elasticsearch_indexer' retrieved from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:38:14.796+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:38:14.796+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:38:14.808+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:38:14.808+0000] {dag.py:4180} INFO - Setting next_dagrun for elasticsearch_indexer to None, run_after=None
+[2026-02-22T14:38:14.820+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elasticsearch_indexer.py took 0.122 seconds
+[2026-02-22T14:38:45.762+0000] {processor.py:186} INFO - Started process (PID=1720) to work on /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:38:45.762+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elasticsearch_indexer.py for tasks to queue
+[2026-02-22T14:38:45.764+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:38:45.764+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:38:45.832+0000] {processor.py:925} INFO - DAG(s) 'elasticsearch_indexer' retrieved from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:38:45.849+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:38:45.849+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:38:45.860+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:38:45.860+0000] {dag.py:4180} INFO - Setting next_dagrun for elasticsearch_indexer to None, run_after=None
+[2026-02-22T14:38:46.350+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elasticsearch_indexer.py took 0.592 seconds
+[2026-02-22T14:39:16.477+0000] {processor.py:186} INFO - Started process (PID=1731) to work on /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:39:16.478+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elasticsearch_indexer.py for tasks to queue
+[2026-02-22T14:39:16.479+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:39:16.479+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:39:16.555+0000] {processor.py:925} INFO - DAG(s) 'elasticsearch_indexer' retrieved from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:39:16.572+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:39:16.572+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:39:16.582+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:39:16.582+0000] {dag.py:4180} INFO - Setting next_dagrun for elasticsearch_indexer to None, run_after=None
+[2026-02-22T14:39:16.595+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elasticsearch_indexer.py took 0.121 seconds
+[2026-02-22T14:39:46.891+0000] {processor.py:186} INFO - Started process (PID=1742) to work on /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:39:46.892+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elasticsearch_indexer.py for tasks to queue
+[2026-02-22T14:39:46.894+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:39:46.894+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:39:46.969+0000] {processor.py:925} INFO - DAG(s) 'elasticsearch_indexer' retrieved from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:39:46.985+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:39:46.985+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:39:46.994+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:39:46.994+0000] {dag.py:4180} INFO - Setting next_dagrun for elasticsearch_indexer to None, run_after=None
+[2026-02-22T14:39:47.005+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elasticsearch_indexer.py took 0.119 seconds
+[2026-02-22T14:40:18.115+0000] {processor.py:186} INFO - Started process (PID=1753) to work on /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:40:18.116+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elasticsearch_indexer.py for tasks to queue
+[2026-02-22T14:40:18.117+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:40:18.117+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:40:18.181+0000] {processor.py:925} INFO - DAG(s) 'elasticsearch_indexer' retrieved from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:40:18.197+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:40:18.197+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:40:18.315+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:40:18.315+0000] {dag.py:4180} INFO - Setting next_dagrun for elasticsearch_indexer to None, run_after=None
+[2026-02-22T14:40:18.326+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elasticsearch_indexer.py took 0.214 seconds
+[2026-02-22T14:40:50.288+0000] {processor.py:186} INFO - Started process (PID=1764) to work on /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:40:50.289+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elasticsearch_indexer.py for tasks to queue
+[2026-02-22T14:40:50.290+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:40:50.290+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:40:50.355+0000] {processor.py:925} INFO - DAG(s) 'elasticsearch_indexer' retrieved from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:40:50.370+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:40:50.370+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:40:50.378+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:40:50.378+0000] {dag.py:4180} INFO - Setting next_dagrun for elasticsearch_indexer to None, run_after=None
+[2026-02-22T14:40:50.392+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elasticsearch_indexer.py took 0.107 seconds
+[2026-02-22T14:41:23.429+0000] {processor.py:186} INFO - Started process (PID=1775) to work on /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:41:23.430+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elasticsearch_indexer.py for tasks to queue
+[2026-02-22T14:41:23.432+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:41:23.432+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:41:23.510+0000] {processor.py:925} INFO - DAG(s) 'elasticsearch_indexer' retrieved from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:41:23.530+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:41:23.530+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:41:23.734+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:41:23.733+0000] {dag.py:4180} INFO - Setting next_dagrun for elasticsearch_indexer to None, run_after=None
+[2026-02-22T14:41:23.749+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elasticsearch_indexer.py took 0.324 seconds
+[2026-02-22T14:41:53.966+0000] {processor.py:186} INFO - Started process (PID=1786) to work on /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:41:53.967+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/elasticsearch_indexer.py for tasks to queue
+[2026-02-22T14:41:53.969+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:41:53.968+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:41:54.173+0000] {processor.py:925} INFO - DAG(s) 'elasticsearch_indexer' retrieved from /opt/airflow/dags/elasticsearch_indexer.py
+[2026-02-22T14:41:54.187+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:41:54.187+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-22T14:41:54.197+0000] {logging_mixin.py:190} INFO - [2026-02-22T14:41:54.197+0000] {dag.py:4180} INFO - Setting next_dagrun for elasticsearch_indexer to None, run_after=None
+[2026-02-22T14:41:54.208+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/elasticsearch_indexer.py took 0.249 seconds
