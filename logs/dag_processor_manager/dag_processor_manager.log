@@ -1,0 +1,16 @@
+[2026-02-22T13:22:07.911+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2026-02-22T13:22:07.912+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2026-02-22T13:22:07.912+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-02-22T13:22:07.912+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-02-22T13:22:07.947+0000] {manager.py:824} INFO - There are 4 files in /opt/airflow/dags
+[2026-02-22T13:22:08.031+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+-------------------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/data_pipeline_example.py                            0           0                                                   0
+/opt/airflow/dags/elasticsearch_indexer.py     132  0.03s             0           0                                                   0
+/opt/airflow/dags/kafka_integration_demo.py    133  0.02s             0           0                                                   0
+/opt/airflow/dags/pyspark_demo.py                                     0           0                                                   0
+================================================================================
